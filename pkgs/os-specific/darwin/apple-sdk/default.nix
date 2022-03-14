@@ -74,6 +74,7 @@ let
     extraTBDFiles = [];
 
     installPhase = ''
+      set -x
       linkFramework() {
         local path="$1"
         local nested_path="$1"

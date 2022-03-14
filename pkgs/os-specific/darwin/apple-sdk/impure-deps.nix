@@ -253,4 +253,7 @@ rec {
   Kernel = [
     "/System/Library/Frameworks/Kernel.framework"
   ];
+  UserNotifications = [
+    "/System/Library/Frameworks/UserNotifications.framework"
+  ];
 }

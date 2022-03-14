@@ -107,6 +107,7 @@ with frameworks; with libs; {
   SystemConfiguration     = { inherit Security; };
   TWAIN                   = { inherit Carbon; };
   Tcl                     = {};
+  UserNotifications       = {};
   VideoDecodeAcceleration = { inherit CoreVideo; };
   VideoToolbox            = { inherit CoreMedia CoreVideo; };
   WebKit                  = { inherit libobjc ApplicationServices Carbon JavaScriptCore OpenGL; };
